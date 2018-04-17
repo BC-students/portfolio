@@ -4,7 +4,7 @@
 
   - Fractionner avec Sass pour le Css : [doc](https://sass-lang.com/).
 
-  - Utiliser MVC et SYMFONY pour le back: [doc](http://knpbundles.com/).
+  - Utiliser MVC, orienté object, pour le back.
     
   - Utiliser firestore pour la DataBase: [doc](https://firebase.google.com/docs/firestore/).
     
@@ -32,7 +32,6 @@ Pensez à commenter aussi afin que tout le monde sache , mieux vaut lire un code
 
 Pour la partie PHP , il faudra bien évidemment travailler en MVC pour , comme dit précédemment, avoir une meilleur lisibilité et visibilité du code,
 la notation " orientée objet " est aussi de mise ici pour plus de simplicité, reférence à l'OOCSS ( vu plus haut " notation orientée object pour le css" ), afin de savoir quoi , comment et pourquoi ( Cfr supra ).
-Il faudra utiliser Symfony pour PHP. Ne vous inquiétez pas .. ça va vous simplifier grandement la vie et ce sera un véritable plus pour bosser par la suite en entreprise.
 
 Enfin, on utilisera Firebase/Firestore au lieu de MySQL
 
