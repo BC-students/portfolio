@@ -3,11 +3,14 @@
   padding: 0; }
 
 body {
-  width: 100%; }
+  width: auto;
+  background-color: #17242E; }
 
-.header_img {
+.header {
+  flex: 100%;
+  padding-top: 0;
   background-image: url(../img/bcode_page_header.jpg);
-  height: 50vh;
+  height: auto;
   width: 100%;
   position: fixed; }
 
@@ -15,9 +18,37 @@ body {
   text-align: center;
   color: white;
   opacity: 0.2;
-  margin-left: 30vw;
-  margin-right: 30vw;
-  margin-top: 10vh;
-  font-size: 0.8em; }
+  margin-left: 34vw;
+  margin-right: 34vw;
+  padding-top: 2%;
+  margin-bottom: 5vh;
+  font-size: 1em; }
+
+#logoBC {
+  padding-top: 10%; }
+
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  padding-bottom: 50px; }
+
+.wrapper > div {
+  text-align: center;
+  border: 1px solid yellow; }
+
+.wrapper_img {
+  width: 100%;
+  border: 1px solid green;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px; }
+
+.first_title {
+  width: 100%;
+  text-align: center; }
+
+.first_title h2 {
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */
