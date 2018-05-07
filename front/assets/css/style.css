@@ -11,9 +11,7 @@ body {
   padding-top: 0;
   background-image: url(../img/bcode_page_header.jpg);
   background-repeat: no-repeat;
-  background-position: center;
   background-size: 100%;
-  height: auto;
   width: 100%;
   position: fixed; }
 
@@ -24,7 +22,8 @@ body {
   margin-left: 34vw;
   margin-right: 30vw;
   padding-top: 5%;
-  margin-bottom: 5vh; }
+  margin-bottom: 5vh;
+  font-size: 0.8em; }
 
 #logoBC {
   padding-top: 210px; }
@@ -44,16 +43,17 @@ body {
   grid-gap: 10px; }
 
 .contenuImg {
-  width: 86px;
+  width: 80px;
   background-color: #20303A;
-  height: 86px;
+  height: 80px;
   text-align: center;
   border-radius: 10px; }
 
 .contourImg {
-  width: 86px;
+  width: 80px;
   height: 150px;
-  border: 1px solid red; }
+  background-color: #111B24;
+  border-radius: 10px; }
 
 .first_title {
   width: 100%;
