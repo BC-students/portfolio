@@ -10,6 +10,9 @@ body {
   flex: 100%;
   padding-top: 0;
   background-image: url(../img/bcode_page_header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
   height: auto;
   width: 100%;
   position: fixed; }
@@ -19,36 +22,44 @@ body {
   color: white;
   opacity: 0.2;
   margin-left: 34vw;
-  margin-right: 34vw;
-  padding-top: 2%;
-  margin-bottom: 5vh;
-  font-size: 1em; }
+  margin-right: 30vw;
+  padding-top: 5%;
+  margin-bottom: 5vh; }
 
 #logoBC {
-  padding-top: 10%; }
+  padding-top: 210px; }
 
 .wrapper {
   display: grid;
   grid-gap: 10px;
-  padding-bottom: 50px; }
+  padding-bottom: 20px; }
 
 .wrapper > div {
-  text-align: center;
-  border: 1px solid yellow; }
+  text-align: center; }
 
 .wrapper_img {
   width: 100%;
-  border: 1px solid green;
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
-  grid-gap: 10px;
-  padding: 10px; }
+  grid-template-columns: 10px auto auto auto auto 10px;
+  grid-gap: 10px; }
+
+.contenuImg {
+  width: 86px;
+  background-color: #20303A;
+  height: 86px;
+  text-align: center;
+  border-radius: 10px; }
+
+.contourImg {
+  width: 86px;
+  height: 150px;
+  border: 1px solid red; }
 
 .first_title {
   width: 100%;
   text-align: center; }
 
-.first_title h2 {
+.first_title h3 {
   color: white; }
 
 /*# sourceMappingURL=style.css.map */

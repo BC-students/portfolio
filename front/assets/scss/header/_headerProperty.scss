@@ -7,6 +7,9 @@ body{
   flex: 100%;
   padding-top: 0;
   background-image:url(../img/bcode_page_header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
   height: auto;
   width: 100%;
   position: fixed;
@@ -17,10 +20,10 @@ body{
   color: white;
   opacity: 0.2;
   margin-left: 34vw;
-  margin-right: 34vw;
-  padding-top: 2%;
+  margin-right: 30vw;
+  padding-top: 5%;
   margin-bottom: 5vh;
-  font-size: 1em;
+
 
 
 }
